@@ -1,0 +1,47 @@
+.trip-item {
+  width: 90%;
+  height: 250px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  // border: 1px solid black;
+  margin: 0 7.5px 15px;
+  color: white;
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
+  .trip-content {
+    height: 160px;
+    width: 240px;
+    background-color: rgba(194, 175, 175, 0.7);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid black;
+
+    h1 {
+      margin: 0;
+    }
+
+    .trip-title {
+      font-weight: bold;
+      margin-bottom: 0;
+      font-size: 30px;
+      // color: white;
+    }
+
+    .trip-subtitle {
+      font-weight: lighter;
+      font-size: 16px;
+    }
+  }
+}

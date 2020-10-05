@@ -1,0 +1,15 @@
+// .homepage {
+//   width: 90%;
+//   background-color: powderblue;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding: 20px 80px;
+// }
+
+.dogs-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

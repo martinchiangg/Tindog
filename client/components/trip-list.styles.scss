@@ -1,0 +1,6 @@
+.trips-container {
+  width: 90%;
+  display: grid;
+  grid-template: auto / repeat(2, 1fr);
+  row-gap: 20px;
+}

@@ -1,0 +1,149 @@
+$color-grey-dark: #777;
+
+.homepage {
+  width: 100%;
+  background-color: powderblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.first-container {
+  color: white;
+  font-size: 30px;
+  background-color: powderblue;
+  padding-bottom: 50px;
+  h1 {
+    margin: 20px;
+  }
+
+  .tindog {
+    margin-bottom: 0;
+    font-size: 128px;
+    color: plum;
+  }
+}
+
+.second-container {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  background-color: pink;
+  padding: 20px 0 50px 0;
+
+  h1 {
+    margin: 40px;
+  }
+
+  .trip-list {
+    position: relative;
+    left: 12%;
+    width: 80%;
+    display: grid;
+    grid-template: auto / repeat(2, 1fr);
+    row-gap: 30px;
+  }
+}
+
+.third-container {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  background-color: powderblue;
+
+  h1 {
+    margin: 80px;
+  }
+
+  .home-owners-list {
+    position: relative;
+    left: 1%;
+    width: 100%;
+    display: grid;
+    grid-template: auto / repeat(4, 1fr);
+    font-size: 16px;
+    color: black;
+
+    img {
+      position: relative;
+      top: 30px;
+    }
+
+    button {
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 30px 10px;
+    }
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.6rem;
+  margin: 30px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  /* box-shadow: X, Y, blur, color */
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--white {
+  background-color: #fff;
+  color: $color-grey-dark;
+}
+
+.btn::after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn--white::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}

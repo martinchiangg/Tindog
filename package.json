@@ -1,0 +1,47 @@
+{
+  "name": "solo-project",
+  "version": "1.0.0",
+  "description": "Take Your Pup Out",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development npm start & webpack-dev-server --open",
+    "dev-mac": "NODE_ENV=development webpack-dev-server --open --hot & nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "Martin Chiang",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^7.18.0",
+    "mongoose": "^5.9.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "webpack": "^4.44.1",
+    "webpack-node-externals": "^2.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/runtime": "^7.11.2",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

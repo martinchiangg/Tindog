@@ -1,0 +1,53 @@
+.owner-item {
+  background-color: white;
+  width: 360px;
+  height: 520px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 7.5px 15px;
+  border-radius: 10px;
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
+  .owner-content {
+    height: 500px;
+    width: 240px;
+    background-color: rgba(235, 250, 133, 0.5);
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    // border: 1px solid black;
+
+    .profile-pic {
+      height: 150px;
+    }
+
+    .owner-name {
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 30px;
+      color: green;
+    }
+
+    .owner-intro {
+      font-weight: lighter;
+      font-size: 16px;
+    }
+
+    .owner-card-btn {
+      margin: 20px;
+      padding: 10px;
+    }
+  }
+}
