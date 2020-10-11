@@ -55,3 +55,6 @@ Any contributions you make are greatly appreciated.
 - Commit your Changes (git commit -m 'Add feature')
 - Push to the Branch (git push origin feature)
 - Open a Pull Request
+
+## License 
+This project is licensed under the MIT License.
