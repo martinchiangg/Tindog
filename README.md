@@ -1,4 +1,4 @@
-Welcome to Tindog!
+###Welcome to Tindog!
 Tindog is a traveling/dating platform for both dogs and owners.
 
 Sometimes, it’s hard to take your dog on travel, renting a car is expensive, and cleaning the car afterwards is super painful as well.
@@ -10,13 +10,13 @@ But the business model is still based on taking these dog owners on travel with 
 
 To get started, first clone the repo
 
-git clone https://github.com/dindean/Tindog.git
+`git clone https://github.com/dindean/Tindog.git`
 
-Install NPM packages:  npm install.
+Install NPM packages:  
+`npm install`
 
 To start Tindog in development mode, run
-
-npm run dev-mac
+`npm run dev-mac`
 
 and visit localhost:8080.
 
@@ -24,7 +24,7 @@ and visit localhost:8080.
 More Features will be updated. You can simply click what you want in the file.
 You can either download it or copy into your codebase.
 
-Contributing
+###Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. 
 Any contributions you make are greatly appreciated.
 
