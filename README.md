@@ -1,6 +1,6 @@
 # Tindog
 Tindog is a traveling/dating platform for both dogs and owners.
-![Home](/screenshots/Home.png ?raw=true "Optional Title")
+![Home](/screenshots/Home.png?raw=true "Optional Title")
 
 ## About
 Sometimes, it’s hard to take your dog on travel, renting a car is expensive, and cleaning the car afterwards is super painful as well.
