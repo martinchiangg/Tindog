@@ -1,5 +1,12 @@
 Welcome to Tindog!
-Traveling/dating platform for both dogs and owners
+Tindog is a traveling/dating platform for both dogs and owners.
+
+Sometimes, it’s hard to take your dog on travel, renting a car is expensive, and cleaning the car afterwards is super painful as well.
+So I start building this project that could put these owners together and take them out, with their dogs.
+
+However, I ended up with a dating website that target dog owners. 
+But the business model is still based on taking these dog owners on travel with their dogs. 
+
 
 To get started, first clone the repo
 
