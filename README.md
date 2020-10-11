@@ -3,7 +3,7 @@ Traveling/dating platform for both dogs and owners
 
 
 Clone the repo
-git clone https://github.com/JTrap-LLC/cs-wars.git
+git clone https://github.com/dindean/Tindog.git
 
 Install NPM packages
 npm install
