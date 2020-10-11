@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`React unit tests LabeledText LabeledText renders correctly 1`] = `
+<p>
+  <strong>
+    Mega: 
+  </strong>
+  Markets
+</p>
+`;
+
+exports[`React unit tests MarketDisplay MarketDisplay renders correctly 1`] = `
+<div
+  className="marketBox"
+>
+  <p>
+    <strong>
+      Market ID: 
+    </strong>
+    2
+  </p>
+  <p>
+    <strong>
+      Location: 
+    </strong>
+    Hogwarts
+  </p>
+  <p>
+    <strong>
+      Cards: 
+    </strong>
+    23
+  </p>
+  <p>
+    <strong>
+      % of total: 
+    </strong>
+    100
+  </p>
+  <div
+    className="flex"
+  >
+    <button
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      +
+    </button>
+    <button
+      onClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        }
+      }
+    >
+      -
+    </button>
+  </div>
+</div>
+`;
+
+exports[`React unit tests MarketsDisplay MarketsDisplay renders correctly 1`] = `
+<div
+  className="displayBox"
+>
+  <h4>
+    Markets
+  </h4>
+  <div
+    className="allMarkets"
+  >
+    <div
+      className="marketBox"
+    >
+      <p>
+        <strong>
+          Market ID: 
+        </strong>
+        0
+      </p>
+      <p>
+        <strong>
+          Location: 
+        </strong>
+        London
+      </p>
+      <p>
+        <strong>
+          Cards: 
+        </strong>
+        0
+      </p>
+      <p>
+        <strong>
+          % of total: 
+        </strong>
+        0.00
+      </p>
+      <div
+        className="flex"
+      >
+        <button
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          -
+        </button>
+      </div>
+    </div>
+    <div
+      className="marketBox"
+    >
+      <p>
+        <strong>
+          Market ID: 
+        </strong>
+        1
+      </p>
+      <p>
+        <strong>
+          Location: 
+        </strong>
+        Hogwarts
+      </p>
+      <p>
+        <strong>
+          Cards: 
+        </strong>
+        5
+      </p>
+      <p>
+        <strong>
+          % of total: 
+        </strong>
+        33.33
+      </p>
+      <div
+        className="flex"
+      >
+        <button
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          -
+        </button>
+      </div>
+    </div>
+    <div
+      className="marketBox"
+    >
+      <p>
+        <strong>
+          Market ID: 
+        </strong>
+        2
+      </p>
+      <p>
+        <strong>
+          Location: 
+        </strong>
+        Home
+      </p>
+      <p>
+        <strong>
+          Cards: 
+        </strong>
+        2
+      </p>
+      <p>
+        <strong>
+          % of total: 
+        </strong>
+        13.33
+      </p>
+      <div
+        className="flex"
+      >
+        <button
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          -
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
