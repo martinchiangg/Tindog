@@ -22,9 +22,29 @@ To start Tindog in development mode, run
 
 and visit localhost:8080.
 
-## Additional Features
-More Features will be updated. You can simply click what you want in the file.
-You can either download it or copy into your codebase.
+## Front End
+- [X] Create React App without using creat-react-app (set your own Webpack)
+- [X] Dynamically populate user and dog information fetching from server
+- [X] Compose React components on inputs/buttons and styling (Avoid using Bootstrap/Material UI)
+- [X] Dynamically populate dropdown menu and properly use hook/Redux
+ 
+## Server Infrastructure
+- [X] Start localhost server, set up hot and historyApiFallBack in Webpack.config.
+- [X] Serve root directory (start with static website)
+- [X] Access information from Database
+- [X] Authenticate user with Google firebase
+
+## Stretch Features
+More Features will be updated, such as 
+- [X] Improve UX/UI with s?css styling
+- [ ] Payment 
+- [ ] Onine chatting
+- [ ] Redux Saga 
+- [ ] Transition from Mongo to Postgres
+- [ ] Add favorites/watch list 
+- [ ] Access server from devices not on the same network
+- [ ] Connect to API for travel images and information
+- [ ] Add authentication for storing favorites/'watch list' Database:
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. 
@@ -34,4 +54,4 @@ Any contributions you make are greatly appreciated.
 - Create your Feature Branch (git checkout -b feature)
 - Commit your Changes (git commit -m 'Add feature')
 - Push to the Branch (git push origin feature)
--Open a Pull Request
+- Open a Pull Request
