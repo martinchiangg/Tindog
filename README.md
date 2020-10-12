@@ -1,6 +1,8 @@
 # Tindog
 Tindog is a traveling/dating platform for both dogs and owners.
 
+![Home](/screenshots/Home.png?raw=true "Homepage")
+
 ## About
 Sometimes, it’s hard to take your dog on travel, renting a car is expensive, and cleaning the car afterwards is super painful as well.
 
@@ -26,13 +28,18 @@ and visit localhost:8080.
 - [X] Create React App without using creat-react-app (set your own Webpack)
 - [X] Dynamically populate user and dog information fetching from server
 - [X] Compose React components on inputs/buttons and styling (Avoid using Bootstrap/Material UI)
-- [X] Dynamically populate dropdown menu and properly use hook/Redux
+- [X] Dynamically render dropdown menu and properly use hook/Redux
+- [X] Use mixins/animations in Sass for interactive user interface
+
+![Trips](/screenshots/Trips.png?raw=true "Trips")
  
 ## Server Infrastructure
 - [X] Start localhost server, set up hot and historyApiFallBack in Webpack.config.
 - [X] Serve root directory (start with static website)
 - [X] Access information from Database
 - [X] Authenticate user with Google firebase
+
+![login](/screenshots/login.png?raw=true "login")
 
 ## Stretch Features
 More Features will be updated, such as 
