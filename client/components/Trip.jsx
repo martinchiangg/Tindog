@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
-import './trip.scss';
+import './Trip.scss';
 
 const Trip = ({
   title,

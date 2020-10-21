@@ -1,5 +1,5 @@
 import React from 'react';
-import './dogs-list.styles.scss';
+import './DogsList.scss';
 
 import DogCard from './DogCard.jsx';
 

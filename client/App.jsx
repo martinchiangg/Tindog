@@ -9,7 +9,7 @@ import OwnersPage from './pages/OwnersPage.jsx';
 import DogsPage from './pages/DogsPage.jsx';
 import SignInSignUpPage from './pages/Sign-in-sign-up.jsx';
 import TripDetail from './components/TripDetail.jsx';
-import Header from './components/header.jsx';
+import Header from './components/Header.jsx';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 

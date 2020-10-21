@@ -6,7 +6,7 @@ import OwnerCard from '../components/OwnerCard.jsx';
 
 import { Link } from 'react-router-dom';
 
-import './homepage.styles.scss';
+import './Homepage.scss';
 
 import { owners, trips } from './HomePageData';
 

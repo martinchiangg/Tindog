@@ -1,7 +1,7 @@
-.owner-item {
+.dog-item {
   background-color: white;
   width: 360px;
-  height: 520px;
+  height: 480px;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
@@ -17,8 +17,8 @@
     margin-left: 7.5px;
   }
 
-  .owner-content {
-    height: 500px;
+  .dog-content {
+    height: 450px;
     width: 240px;
     background-color: rgba(235, 250, 133, 0.5);
     padding: 0 25px;
@@ -29,25 +29,22 @@
     border-radius: 10px;
     // border: 1px solid black;
 
-    .profile-pic {
+    .dog-profile-pic {
       height: 150px;
+      width: 150px;
+      border-radius: 50%;
     }
 
-    .owner-name {
+    .dog-name {
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 30px;
       color: green;
     }
 
-    .owner-intro {
+    .dog-intro {
       font-weight: lighter;
       font-size: 16px;
-    }
-
-    .owner-card-btn {
-      margin: 20px;
-      padding: 10px;
     }
   }
 }

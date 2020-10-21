@@ -2,7 +2,7 @@ import React from 'react';
 
 import DogsList from '../components/DogsList.jsx';
 
-import './dogs-page.styles.scss';
+import './DogsPage.scss';
 
 const DogsPage = () => {
   return (

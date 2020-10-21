@@ -1,5 +1,5 @@
 import React from 'react';
-import './trip-list.styles.scss';
+import './TripList.scss';
 
 import Trip from './Trip.jsx';
 

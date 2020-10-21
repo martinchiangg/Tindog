@@ -15,9 +15,6 @@ $color-grey-dark: #777;
   font-size: 30px;
   background-color: powderblue;
   padding-bottom: 50px;
-  h1 {
-    margin: 20px;
-  }
 
   .tindog {
     margin-bottom: 0;
@@ -32,10 +29,6 @@ $color-grey-dark: #777;
   width: 100%;
   background-color: pink;
   padding: 20px 0 50px 0;
-
-  h1 {
-    margin: 40px;
-  }
 
   .trip-list {
     position: relative;
@@ -53,10 +46,6 @@ $color-grey-dark: #777;
   width: 100%;
   background-color: powderblue;
 
-  h1 {
-    margin: 80px;
-  }
-
   .home-owners-list {
     position: relative;
     left: 1%;
@@ -65,19 +54,6 @@ $color-grey-dark: #777;
     grid-template: auto / repeat(4, 1fr);
     font-size: 16px;
     color: black;
-
-    img {
-      position: relative;
-      top: 30px;
-    }
-
-    button {
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      margin: 30px 10px;
-    }
   }
 }
 

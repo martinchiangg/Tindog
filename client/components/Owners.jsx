@@ -1,5 +1,5 @@
 import React from 'react';
-import './owners.styles.scss';
+import './Owners.scss';
 
 import OwnerCard from './OwnerCard.jsx';
 

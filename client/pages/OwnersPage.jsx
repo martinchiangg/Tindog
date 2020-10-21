@@ -2,7 +2,7 @@ import React from 'react';
 
 import Owners from '../components/Owners.jsx';
 
-import './owners-page.styles.scss';
+import './OwnersPage.scss';
 
 const OwnersPage = () => {
   return (

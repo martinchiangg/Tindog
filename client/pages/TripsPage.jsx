@@ -2,7 +2,7 @@ import React from 'react';
 
 import TripList from '../components/TripList.jsx';
 
-import './trips-page.styles.scss';
+import './TripsPage.scss';
 
 const TripsPage = () => {
   return (

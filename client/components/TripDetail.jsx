@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import './trip-detail.styles.scss';
+import './TripDetail.scss';
 import OwnerCard from './OwnerCard.jsx';
 import DogCard from './DogCard.jsx';
 

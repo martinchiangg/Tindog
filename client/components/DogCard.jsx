@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
-import './dog-card.scss';
+import './DogCard.scss';
 
 const DogCard = ({ petName, imageUrl, age, breed, intro }) => {
   return (

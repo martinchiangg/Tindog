@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { auth } from '../firebase/firebase.utils';
 import { connect } from 'react-redux';
 import CartIcon from './small comp/cart-icon.jsx';
-import CarDropdown from './small comp/cart-dropdown.jsx';
-import './header-styles.scss';
+import './Header.scss';
 import CartDropdown from './small comp/cart-dropdown.jsx';
 
 const Header = ({ currentUser, hidden }) => {
