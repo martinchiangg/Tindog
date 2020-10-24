@@ -14,11 +14,11 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <div className="first-container">
-        <h1>
+        <h3>
           WELCOME TO <h1 className="tindog">TINDOG</h1>
-        </h1>
-        <h1>Hang Out With Other Dog Owners</h1>
-        <h1>Have Fun All Together With All The Dogs!</h1>
+        </h3>
+        <h3>Hang Out With Other Dog Owners</h3>
+        <h3>Have Fun All Together With All The Dogs!</h3>
         <Link className="option" to="/signup">
           <a href="#" className="btn btn--white btn--animated">
             SIGN ME UP
@@ -26,8 +26,8 @@ const HomePage = () => {
         </Link>
       </div>
       <div className="second-container">
-        <h1>Make New Friends While</h1>
-        <h1>Attending Dog Friendly Trips</h1>
+        <h2>Make New Friends While</h2>
+        <h2>Attending Dog Friendly Trips</h2>
         <div className="trip-list">
           {trips.map(
             ({

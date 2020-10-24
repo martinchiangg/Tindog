@@ -1,8 +1,8 @@
 .owner-item {
   background-color: white;
   width: 240px;
-  height: 320px;
-  flex: 1 1 auto;
+  height: 350px;
+  flex: 1 1 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@
   }
 
   .owner-content {
-    height: 300px;
+    height: 330px;
     width: 220px;
     background-color: rgba(235, 250, 133, 0.5);
     padding: 0 10px;
@@ -29,14 +29,15 @@
     border-radius: 10px;
 
     .profile-pic {
-      height: 100px;
+      height: 150px;
       border-radius: 50%;
+      margin-bottom: 20px;
     }
 
     .owner-name {
       font-weight: bold;
       margin-bottom: 3px;
-      font-size: 15px;
+      font-size: 18px;
       color: green;
     }
 
@@ -46,8 +47,11 @@
     }
 
     .owner-card-btn {
+      background-color: powderblue;
+      border: none;
+      border-radius: 10px;
       margin: 10px;
-      padding: 5px;
+      padding: 10px;
     }
   }
 }

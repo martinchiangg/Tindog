@@ -14,11 +14,14 @@ $color-grey-dark: #777;
   color: white;
   font-size: 30px;
   background-color: powderblue;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 
+  h1 {
+    margin: 0;
+  }
   .tindog {
     margin-bottom: 0;
-    font-size: 128px;
+    font-size: 84px;
     color: plum;
   }
 }
@@ -28,7 +31,7 @@ $color-grey-dark: #777;
   font-size: 30px;
   width: 100%;
   background-color: pink;
-  padding: 20px 0 50px 0;
+  padding: 20px 0 30px 0;
 
   .trip-list {
     position: relative;
