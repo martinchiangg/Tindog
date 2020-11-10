@@ -3,6 +3,38 @@ Tindog is a traveling/dating platform for both dogs and owners.
 
 ![Home](/screenshots/Home.png?raw=true "Homepage")
 
+## Installation & Usage
+
+Install dependencies:
+
+```
+npm install
+```
+
+Create build:
+
+```
+npm run build
+```
+
+Development mode with HMR:
+
+```
+npm run dev-mac
+```
+
+Unit test
+
+```
+npm run test
+```
+
+Open App:\
+```
+npm run build
+```
+And open index.html with browser.
+
 ## About
 Sometimes, it’s hard to take your dog on travel, renting a car is expensive, and cleaning the car afterwards is super painful as well.
 
